@@ -1,0 +1,6 @@
+[submodule "pimf-framework"]
+	path = pimf-framework
+	url = https://github.com/gjerokrsteski/pimf-framework
+[submodule "Transphporm"]
+	path = Transphporm
+	url = https://github.com/Level-2/Transphporm
