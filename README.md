@@ -1,4 +1,4 @@
-Welcome to PIMF Haanga bundle
+Welcome to PIMF Transphporm bundle
 ==============================
 This is a run-ready "Hello world" application using PIMF micro framework and Transphporm (https://github.com/Level-2/Transphporm), a template engine that separates logic from markup and that uses a syntax already familiar to web developers.
 
@@ -7,28 +7,26 @@ Here you can learn how to work with \Pimf\View\Transphporm template engine and \
 Installation & Configuration
 ----------------------------
 
-1. git clone --recursive https://github.com/garrettw/pimf-transphporm.git
+**MUST have DOM (XML) and mbstring PHP extensions installed**
 
-2. cd pimf-transphporm/
-
-3. update submodules
-```php  
-  git submodule --quiet sync
-  git submodule --quiet update --force --init --recursive
+1. Install Composer into a fresh directory (also initializes PIMF)
+```bash
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php composer-setup.php
+php -r "unlink('composer-setup.php');"
+php composer.phar create-project garrettw/pimf-transphporm .
 ```
 
-4. php pimf core:init
-
-5. Navigate to your application in a web browser. If all is well, you should see a pretty PIMF splash page. Get ready - there is a lot more to learn!
+2. Navigate to your application in a web browser. If all is well, you should see a pretty PIMF splash page. Get ready - there is a lot more to learn!
 
 Alternatively you can run PHP's built-in web server that is provided since PHP 5.4.0
-   
-```php   
-   php -S 127.0.0.1:1337
+
+```bash
+php -S 127.0.0.1:1337
 ```
 
-Please notice: this web server was designed to aid application development. It may also be useful for testing purposes or for 
-application demonstrations that are run in controlled environments. It is not intended to be a full-featured web server. 
+Please notice: this web server was designed to aid application development. It may also be useful for testing purposes or for
+application demonstrations that are run in controlled environments. It is not intended to be a full-featured web server.
 It should not be used on a public network.
 
 Learning PIMF

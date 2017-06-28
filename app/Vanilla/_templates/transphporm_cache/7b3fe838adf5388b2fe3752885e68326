@@ -1,0 +1,30 @@
+1656354884a:2:{s:7:"content";a:2:{s:4:"body";s:1118:"<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title><text transphporm="text">Welcome to PIMF Transphporm bundle</text></title>
+    <link rel="stylesheet" type="text/css" href="/hello.css" />
+  </head>
+  <body>
+    <header>
+      <h1><text transphporm="text">Welcome to PIMF Transphporm bundle</text></h1>
+    </header>
+    <hr />
+    <h2><text transphporm="text">Hello World!!!</text></h2>
+    <hr />
+    <footer>
+      <p>
+        <strong><text transphporm="text">Please type in the URL "/hello/Barry" and see what happens!</text></strong>
+        <br />
+        Now that you're up and running, it's time to start creating!
+        Here are some links to help you get started:
+      </p>
+
+      <ul class="out-links">
+        <li><a href="http://pimf-framework.de" target="_blank">Official Website</a></li>
+        <li><a href="https://github.com/gjerokrsteski/pimf-framework/wiki" target="_blank">Learning PIMF</a></li>
+        <li><a href="http://slides.com/gjerokrsteski/pimf-php-micro-framework/" target="_blank">PIMF Presentation</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>";s:7:"headers";a:0:{}}s:9:"timestamp";i:1498674884;}

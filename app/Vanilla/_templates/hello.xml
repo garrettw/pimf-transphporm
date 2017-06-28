@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Blog Title</title>
+    <link rel="stylesheet" type="text/css" href="/hello.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Title of Blog</h1>
+    </header>
+    <hr/>
+    <h2>Some content.</h2>
+    <hr/>
+    <footer>
+      <p>
+        <strong>Footer goes here.</strong>
+        <br />
+        Now that you're up and running, it's time to start creating!
+        Here are some links to help you get started:
+      </p>
+
+      <ul class="out-links">
+        <li><a href="http://pimf-framework.de" target="_blank">Official Website</a></li>
+        <li><a href="https://github.com/gjerokrsteski/pimf-framework/wiki" target="_blank">Learning PIMF</a></li>
+        <li><a href="http://slides.com/gjerokrsteski/pimf-php-micro-framework/" target="_blank">PIMF Presentation</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

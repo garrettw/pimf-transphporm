@@ -1,0 +1,3 @@
+title, header h1 { content: data(blog_title); }
+h2 { content: data(blog_content); }
+footer p strong { content: data(blog_footer); }

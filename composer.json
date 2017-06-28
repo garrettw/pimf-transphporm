@@ -1,0 +1,41 @@
+{
+    "name": "garrettw/pimf-transphporm",
+    "description": "A skeleton app using the PIMF framework with the Transphporm template engine",
+    "type": "project",
+    "keywords": ["pimf", "framework", "skeleton", "app", "transphporm"],
+    "license": "Unlicense",
+    "authors": [
+        {
+            "name" : "Gjero Krsteski",
+            "email" : "gjero@krsteski.de",
+            "homepage" : "http://krsteski.de",
+            "role" : "Lead Developer"
+        },
+        {
+            "name": "Garrett Whitehorn",
+            "email": "garrettw87@gmail.com",
+            "homepage": "http://garrettw.net/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/gjerokrsteski/pimf-framework/issues",
+        "wiki": "https://github.com/gjerokrsteski/pimf-framework/wiki",
+        "source": "https://github.com/gjerokrsteski/pimf-framework"
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "git submodule --quiet sync",
+            "git submodule --quiet update --force --init --recursive",
+            "cp composer.phar Transphporm/composer.phar",
+            "cd Transphporm",
+            "php composer.phar install",
+            "cd ..",
+            "@php pimf core:init"
+        ],
+        "post-update-cmd": [
+            "git submodule --quiet sync",
+            "git submodule --quiet update --force --init --recursive"
+        ]
+    }
+}
