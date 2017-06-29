@@ -9,7 +9,12 @@ Installation & Configuration
 
 **MUST have DOM (XML) and mbstring PHP extensions installed**
 
-1. Install Composer into a fresh directory (also initializes PIMF)
+1. Clone this repository recusrsively:
+```bash
+git clone --recursive https://github.com/garrettw/pimf-transphporm.git
+```
+
+2. Install Composer into a fresh directory (also initializes PIMF)
 ```bash
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 php composer-setup.php
@@ -17,7 +22,7 @@ php -r "unlink('composer-setup.php');"
 php composer.phar create-project garrettw/pimf-transphporm .
 ```
 
-2. Navigate to your application in a web browser. If all is well, you should see a pretty PIMF splash page. Get ready - there is a lot more to learn!
+3. Navigate to your application in a web browser. If all is well, you should see a pretty PIMF splash page. Get ready - there is a lot more to learn!
 
 Alternatively you can run PHP's built-in web server that is provided since PHP 5.4.0
 

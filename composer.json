@@ -28,7 +28,7 @@
             "git submodule --quiet sync",
             "git submodule --quiet update --force --init --recursive",
             "cp composer.phar Transphporm/composer.phar",
-            "cd Transphporm",
+            "cd Transphporm/",
             "php composer.phar install",
             "cd ..",
             "@php pimf core:init"
